@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Navbar } from './Navbar'
 
 const URL = "http://localhost:3000"
 
-export const Dashboard = (props : {}) => {
+export const Dashboard = () => {
     const [data, setData] = useState({
         flag: ""
     })

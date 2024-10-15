@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Card, CardContent } from "./ui/card"
@@ -19,7 +19,7 @@ export const HintPage = () => {
     setHintsVisible(newHintsVisible);
   };
 
-  const handleClick = async (e) => {
+  const handleClick = async () => {
         let res = await fetch(URL + "/api/submit", {
             method: "POST",
             headers: {
