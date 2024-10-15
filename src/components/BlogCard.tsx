@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BlogCard = ({ id, title, content }: {id: number, title: string, content: string}) => {
