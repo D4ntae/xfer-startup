@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function LandingPage() {
   return (
     <div className="relative flex h-screen w-full items-center justify-center bg-gradient-to-r from-slate-900 via-orange-900 to-slate-900">
